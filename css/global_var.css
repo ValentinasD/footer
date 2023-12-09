@@ -1,0 +1,294 @@
+/* Colors */
+:root {
+    --dark-pink: #ba4270;
+    --charm-pink: #da6d97;
+    --link-water-white: #fbfcfe;
+    --mirage-blue: #1b262f;
+    --san-juan-blue: #36536b;
+    --light-san-juan-blue: #6c8294;
+    --red-error-state: #FF0000;
+    --background-color:#EDF3F8;
+
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans&display=swap');
+
+p {
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.h1-large {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.h1-small {
+    font-size: 56px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.h3-small {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Buttons */
+
+/* Primary(pink buttons) for Desktop and Tablet */
+.primary-btn {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    height: 48px;
+    width: 173px;
+    border-radius: 30px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0px solid var(--dark-pink);
+}
+
+.primary-btn:hover {
+    color: var(--link-water-white);
+    background-color: var(--charm-pink);
+    border: 0px solid var(--charm-pink);
+
+}
+
+.primary-btn:disabled {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    border: 0px solid var(--dark-pink);
+    opacity: 50%;
+
+}
+/* Primary(pink buttons) for Mobile */
+.primary-btn-long {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    height: 48px;
+    width: 327px;
+    border-radius: 30px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0px solid var(--dark-pink);
+}
+
+.primary-btn-long:hover {
+    color: var(--link-water-white);
+    background-color: var(--charm-pink);
+    border: 0px solid var(--charm-pink);
+
+}
+
+.primary-btn-long:disabled {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    border: 0px solid var(--dark-pink);
+    opacity: 50%;
+
+}
+
+/* Primary(pink buttons)for Mobile MENU only */
+.primary-btn-menu {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    height: 48px;
+    width: 252px;
+    border-radius: 30px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0px solid var(--dark-pink);
+}
+
+.primary-btn-menu:hover {
+    color: var(--link-water-white);
+    background-color: var(--charm-pink);
+    border: 0px solid var(--charm-pink);
+
+}
+
+.primary-btn-menu:disabled {
+    color: var(--link-water-white);
+    background-color: var(--dark-pink);
+    border: 0px solid var(--dark-pink);
+    opacity: 50%;
+
+}
+
+/* Secondary buttons light */
+.secondary-btn-light {
+    color: var(--link-water-white);
+    background-color: var(--mirage-blue);
+    height: 48px;
+    width: 129px;
+    border-radius: 30px;
+    border: solid 1px var(--link-water-white);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.secondary-btn-light:hover {
+    color: var(--san-juan-blue);
+    background-color: var(--link-water-white);
+
+}
+
+.secondary-btn-light:disabled {
+    color: var(--link-water-white);
+    background-color: var(--mirage-blue);
+    opacity: 50%;
+    border: solid 1px var(--link-water-white);
+}
+
+
+/* Secondary buttons dark */
+.secondary-btn-dark {
+    color: var(--san-juan-blue);
+    height: 48px;
+    width: 152px;
+    border-radius: 30px;
+    border: solid 1px var(--san-juan-blue);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.secondary-btn-dark:hover {
+    color: var(--link-water-white);
+    background-color: var(--san-juan-blue);
+
+}
+
+.secondary-btn-dark:disabled {
+    color: var(--san-juan-blue);
+    opacity: 50%;
+    border: solid 1px var(--san-juan-blue);
+}
+
+/* Form Elements */
+input {
+    color: var(--san-juan-blue);
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid var(--san-juan-blue);
+    opacity: 50%;
+}
+
+input:active {
+    border: none;
+    border-bottom: var(--mirage-blue);
+    color: var(--mirage-blue);
+}
+
+input:invalid {
+    border: none;
+    border-bottom: var(--red-error-state);
+    color: var(--red-error-state);
+}
+
+/* Checkbox */
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color:var(--san-juan-blue);
+    opacity: 25%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: var(--san-juan-blue);
+    opacity: 25%;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: var(--dark-pink);
+    opacity: unset;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--link-water-white);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.container:disabled{
+    background-color: var(--san-juan-blue);
+    opacity: 5%;
+}

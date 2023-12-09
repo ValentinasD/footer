@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: #EDF3F8;
+}
+body{
+    font-family: 'public sans';
+}
+/* nav{
+   height: 80px;
+   width: 100%; 
+   background: #fbfcfe;
+} */
+label.logo{
+    font-size: 35px;
+    cursor: pointer;
+    /* width: 88.66px;
+    height: 28.74px;
+    top: 10.29px;
+    left: 46px; */
+    color: #36536b;
+    padding: 0 100px;
+    line-height: 80px;
+    background-image: url(../img/assets/shared/desktop/logo.svg);
+    background-repeat: no-repeat;
+}
+ nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+} 
+nav a{
+    color: #36536b;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-weight: 700;
+} 
+
+.secondary-btn{
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 272px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+/* update */
+.header-wrapper {
+    display: flex;
+}
+.phonedemo{
+    /* float: right; */
+    padding: 5% 3%;
+    width: 50%;
+    text-align: center;
+}
+
+/* UPDATE */
+.content{
+    font-family: 'DM Serif Display';
+    color:#36536B;
+    width: 50%;
+    text-align: center;
+    padding: 14% 3% 0% 3%;
+}
+.content h1{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+#email{
+    border-radius: 35px;
+    border: 1px solid transparent;
+    
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fbfcfe;
+    border-radius: 35px;
+
+
+    padding: 10px;
+    /* margin-top: 30px; */
+
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content p a{
+    font-family: 'Public Sans';
+    color: #36536B;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.63px;
+}
+
+.navbar-button{
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 175px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent
+}
+.navbar-button:hover{
+    color: #fbfcfe;
+    background-color: #BA4270;
+    border: 0px solid #BA4270;
+}
+
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.reklama{
+    top: 737px;
+    color: #EDF3F8;
+    display: inline-block;
+    background-color: #1b262f;
+    text-align: center;
+}
+ .reklama p{
+    top: 80px;
+    opacity: 70%;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+.reklama h2{
+    font-family: 'DM Serif Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+/* .reklama img{
+width: 780px;
+height: 780px;
+top: -359px;
+left: -235px;
+background-color: #1b262f;
+background-position: ;
+} */
+.company{
+    /* float: right;
+    margin-right: 40px;
+    margin-top: 50px; */
+width: 536px;
+height: 103px;
+top: 922px;
+left: 741px;
+color: #fbfcfe;
+/* background-position: ; */
+}
+.secondary-btn-dark{
+color: #fbfcfe;
+    background-color: #1b262f;
+    font-size: 15px;
+    width: 173px;
+    height: 48px;
+    border-radius: 35px;
+    border: 1px solid #fbfcfe;
+    cursor: pointer;
+}
+/* galbut mobilui tiks
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+} */
+
+
+
+/* naujas burgeris */
+li{
+    list-style: none;
+}
+a{
+   color: #fbfcfe;
+   text-decoration: none; 
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: #fbfcfe;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #36536B;
+}
+
+
+@media (max-width: 1048px){
+label.logo{
+    font-size: 32px;
+    padding-left: 60px;
+}
+nav ul{
+    margin-right: 20px;
+}
+nav a{
+    font-size: 17px;
+}
+.content h1{
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.246px;
+}
+/* button.secondary-btn-light{
+    color: #fbfcfe;
+    background-color: #BA4270;
+    width: 473px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid transparent
+} */
+}
+
+@media (max-width: 909px){  
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center -600%; 
+    }
+    /* UPDATE */
+    .content h1{
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.246px;
+        padding: 0px 10px;
+    }
+    .header-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .phonedemo {
+        /* width: 100%; */
+        width: 170px;
+        height: 240px;
+        text-align: center;
+        padding: 0% 23%;
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        padding: 0% 3%;
+    } 
+    .content form{
+        display: list-item;
+        background: fixed;
+    }
+    #email{
+        width: 327px;
+        height: 48px;
+        border-radius: 35px;
+        border: 1px solid transparent;
+        display: flex;
+    }
+    .secondary-btn{
+        color: #fbfcfe;
+        background-color: #BA4270;
+        height: 48px;
+        width: 327px;
+        font-size: 15px;
+        border-radius: 35px;
+        border: 1px solid transparent;
+        cursor: pointer; 
+        margin-top: 20px; 
+    }
+    .secondary-btn:hover{
+        color: #fbfcfe;
+        background-color: #BA4270;
+        border: 0px solid #BA4270;
+    }
+
+
+    .nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        color: #fbfcfe;
+        font-size: 20px;
+    }
+    /* nav ul.show{
+        left: 14%;
+        height: 100%;
+        width: 400px;
+    } */
+
+
+
+    /* naujas burgeris */ 
+    .hamburger{
+        display: block;
+        z-index: 2;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        background-color: #fbfcfe;
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: #fbfcfe;
+    }
+    .nav-menu{
+        position: fixed;
+        background: #1b262f;
+        top: 15px;
+        left: 100%;
+        top: 0%;
+        gap: 0;
+        flex-direction: column;
+        height: 100%;
+        max-width:337px;
+        min-width: 366px;
+         /* transition: all .5s; */
+        transition: all .5s ease-out;
+    }
+    .nav-menu li:nth-child(1){
+        margin-top: 40%;
+    }
+
+    .nav-menu.active{
+        top: 0%;
+        left: 14%;
+        height: 100%;
+        max-width:337px;
+        min-width: 366px;
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center -315%;
+        z-index: 1;
+    }
+    .nav-menu.active li:nth-child(1){
+        margin-top: 40%;
+
+    } 
+   }
+   /* Samsung Galaxy S8+ */
+   @media only screen and (min-width: 360px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        background-position: center top -215%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 160%;
+        background-position: center -450%; 
+    }
+   }
+   /* iphone SE */
+   @media only screen and (min-width: 375px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center top -175%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 125%;
+        background-position: center top -124%; 
+    }
+   }
+   /* iPhone 12 Pro */
+   @media only screen and (min-width: 390px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center top -285%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center top -500%; 
+    }
+   }
+   /* Pixel 7, Samsung Galaxy S20 ultra, A51/71 */
+   @media only screen and (min-width: 412px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center top -201%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center top -1150%; 
+    }
+   }
+   /* iPhone XR */
+   @media only screen and (min-width: 414px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center top -72%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 125%;
+        background-position: center top -210%; 
+    }
+   }
+   /* iPhone 14 Pro Max */
+   @media only screen and (min-width: 430px){
+    .nav-menu.active{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        background-position: center top -97%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 125%;
+        background-position: center top -250%; 
+    }
+   }
+   /* iPad Mini */
+   @media only screen and (min-width: 768px){
+    .phonedemo {
+        /* width: 100%; */
+        width: 170px;
+        height: 240px;
+        text-align: center;
+        padding: 0% 35%;
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        padding: 0% 3%;
+    } 
+    .content form{
+        display: list-item;
+        background: fixed;
+    }
+    #email{
+        width: 327px;
+        height: 48px;
+        border-radius: 35px;
+        border: 1px solid transparent;
+        display: flex;
+        padding: 0% 35%;
+    }
+    .secondary-btn{
+        color: #fbfcfe;
+        background-color: #BA4270;
+        height: 48px;
+        width: 327px;
+        font-size: 15px;
+        border-radius: 35px;
+        border: 1px solid transparent;
+        cursor: pointer; 
+        margin-top: 20px; 
+    }
+    .secondary-btn:hover{
+        color: #fbfcfe;
+        background-color: #BA4270;
+        border: 0px solid #BA4270;
+    }
+    .nav-menu.active{
+        top: 0%;
+        left: 14%;
+        height: 100%;
+        max-width:337px;
+        min-width: 654px;
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center 830%;
+    }
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center top 170%; 
+    }
+   }
+   @media only screen and (min-width: 820px){
+    header{
+        background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: center right 50% ; 
+    }
+    .phonedemo {
+        width: 170px;
+        height: 240px;
+        text-align: center;
+        padding: 0% 35%;
+    } 
+    .nav-menu{
+        text-align: center;
+        top: 12px;
+        top: 1%;
+   }}
+   
+
