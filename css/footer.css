@@ -101,7 +101,7 @@ footer sudaro du div footer-top virsus */
     height: 38px;
 }
 
-.footer-nav {
+.footer-nav-footer {
     margin-right: auto;
     padding: 15px;
     display: flex;
@@ -120,20 +120,20 @@ footer sudaro du div footer-top virsus */
     padding-right: 75px;
 }
 
-.nav-link {
+.footer-nav-footer {
     text-decoration: none;
     color: #fbfcfe;
 }
 
 /*  meniu isdestimas*/
-.footer-nav ul {
+.footer-nav-footer ul {
     display: flex;
     list-style: none;
     align-items: center;
     padding: 0;
 }
 
-.footer-nav li {
+.footer-nav-footer li {
     display: flex;
     font-size: 15px;
     margin-right: 20px;
@@ -208,7 +208,7 @@ footer sudaro du div footer-top virsus */
         justify-content: center; 
     }
 
-    .footer-nav{
+    .footer-nav-footer{
         width: 20%;
         height: 35%;
         display: flex;
@@ -217,13 +217,13 @@ footer sudaro du div footer-top virsus */
         padding: 0;
     }
 
-    .footer-nav ul {
+    .footer-nav-footer ul {
         flex-direction: column;
         text-align: center;
         justify-content: center;
     }
 
-    .footer-nav li{
+    .footer-nav-footer li{
         display: flex;
         margin-bottom: 15px;
         justify-content: center;
